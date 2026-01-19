@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 80px;
+    background-color: #111;
+}
+
+.logo {
+    color: #f5c16c;
+    font-size: 26px;
+    font-weight: bold;
+}
+
+nav a {
+    color: white;
+    margin-left: 25px;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+nav a:hover {
+    color: #f5c16c;
+}
+
+
+.hero {
+    height: 90vh;
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+                url("https://images.unsplash.com/photo-1523293182086-7651a899d37f");
+    background-size: cover;
+    background-position: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 50px;
+    margin-bottom: 15px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 25px;
+}
+
+.hero button {
+    padding: 12px 30px;
+    background-color: #f5c16c;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.hero button:hover {
+    background-color: #e0ae55;
+}
+
+
+.products {
+    padding: 80px;
+    text-align: center;
+}
+
+.products h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+
+.product-box {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.card {
+    background-color: #f9f9f9;
+    padding: 20px;
+    width: 30%;
+    border-radius: 8px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    animation-name:backInDown;
+    animation-duration: 5s;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 6px;
+}
+
+.card h3 {
+    margin: 15px 0 5px;
+}
+
+.card p {
+    font-size: 18px;
+    color: #555;
+}
+
+.card button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #111;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.card button:hover {
+    background-color: #f5c16c;
+    color: #111;
+}
+
+
+footer {
+    background-color: #111;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+.card video{
+    border-radius: 30px;
+}
+a>img{
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+    position: fixed;
+}
+.animate__animated{
+    animation-name: bounce;
+    animation-duration: 10s;
+
+}
